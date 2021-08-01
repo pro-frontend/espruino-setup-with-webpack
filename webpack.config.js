@@ -1,4 +1,6 @@
 const path = require("path");
+// Next option is to optimize compilation process. Unused cause 525 ms => 2300 ms time.
+// const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 module.exports = {
   // bundling mode
@@ -22,10 +24,20 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?/,
-        use: "ts-loader",
+        test: /\.ts?/,
+        use: {
+          loader: "ts-loader",
+          options: {
+            transpileOnly: true,
+          },
+        },
         exclude: /node_modules/,
       },
     ],
   },
+
+  // plugins
+  // plugins: [
+  //   new ForkTsCheckerWebpackPlugin(), // run TSC on a separate thread
+  // ],
 };
