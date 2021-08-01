@@ -2813,6 +2813,11 @@ esprima@~1.1.1:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-1.1.1.tgz#5b6f1547f4d102e670e140c509be6771d6aeb549"
   integrity sha1-W28VR/TRAuZw4UDFCb5ncdautUk=
 
+espruino-modules@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/espruino-modules/-/espruino-modules-0.1.0.tgz#d0bbcd3456029b04a679165acdcf6dc2c9fb69b8"
+  integrity sha1-0LvNNFYCmwSmeRZazc9twsn7abg=
+
 espruino@^0.1.38:
   version "0.1.38"
   resolved "https://registry.yarnpkg.com/espruino/-/espruino-0.1.38.tgz#aaa0897366b71c017e95b9f739b38720d6454995"

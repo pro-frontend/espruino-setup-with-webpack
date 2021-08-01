@@ -34,6 +34,7 @@
     "webpack-cli": "^4.7.2"
   },
   "dependencies": {
-    "espruino": "^0.1.38"
+    "espruino": "^0.1.38",
+    "espruino-modules": "^0.1.0"
   }
 }
